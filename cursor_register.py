@@ -12,6 +12,8 @@ from DrissionPage import ChromiumOptions, Chromium
 from temp_mails import Tempmail_io, Guerillamail_com
 from helper.cursor_register import CursorRegister
 from helper.email import *
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # Parameters for debugging purpose
 hide_account_info = os.getenv('HIDE_ACCOUNT_INFO', 'false').lower() == 'true'
